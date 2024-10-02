@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>simple form</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        } 
+        form{
+            max-width: 600px;
+            background:aqua;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            height: fit-content;
+            /* position: relative;
+             */
+        }
+    </style>
+</head>
+<body>
+        <form action="/">
+        <h1>Create Account</h1>
+        <div><label for="Name"> Your Name</label></div>
+        <input type="text" id="name"  name="Name" placeholder="Enter your name">
+        
+        <br>
+        <br>
+        <div><label for="Mobile number">Mobile Number</label></div>
+        <input type="number" id="Number"  name="number" placeholder="Enter your number">
+        <br>
+        <br>
+        <div><label for="email">Email</label></div>
+        <input type="email"placeholder="Enter your email">
+        <br>
+        <br>
+        <div><label for="password">Password</label></div>
+        <input type="password"placeholder="Enter your password">
+        <br>
+        <br>
+        <div><label for="password"> Re-Enter Password</label></div>
+        <input type="password"placeholder="Enter your password">
+        <br>
+        <br>
+        <!-- <form action="/" method="post"> -->
+            <label for="subscribe">
+                <input type="checkbox" id="subscribe" name="subscribe" class="large-checkbox">
+                countinue
+            </label><br><br>
+            <!-- <input type="submit" value="Submit"> -->
+        <!-- </form> -->
+    
+        </form>
+</body>
+</html>
